@@ -34,9 +34,9 @@ namespace Inheritance
             Dog dog = new Dog();
             Cat cat = new Cat();
 
-            genericAnimal.MakeSound(); // Output: Some generic sound
-            dog.MakeSound();           // Output: Bark
-            cat.MakeSound();           // Output: Meow
+            genericAnimal.MakeSound(); //This method will Output animal sound: Some generic sound
+            dog.MakeSound();           // This method will Output a dog sound: Bark
+            cat.MakeSound();           // This method will Output a cat sound: Meow
         }
     }
 }
